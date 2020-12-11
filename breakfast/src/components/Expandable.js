@@ -3,8 +3,8 @@ import Icon from './Icon'
 import Body from './Body'
 import React, { createContext, useState, useCallback, useRef, useEffect, useMemo } from 'react'
 import './Expandable.css'
-import useExpanded from './useExpanded'
-import useEffectAfterMount from './useEffectAfterMount'
+import useExpanded from '../../src/hooks/useExpanded'
+import useEffectAfterMount from '../../src/hooks/useEffectAfterMount'
 
 export const ExpandableContext = createContext()
 const { Provider } = ExpandableContext
